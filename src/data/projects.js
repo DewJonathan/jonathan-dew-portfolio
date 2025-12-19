@@ -1,7 +1,3 @@
-import flightTrackerImg from "../assets/Flight_tracker_desktop.png";
-import expenseTrackerImg from "../assets/expense_tracker_desktop.png";
-import aiBudgetAdvisorImg from "../assets/ai_budget_advisor_desktop.png";
-
 const projects = [
   {
     id: 1,
@@ -11,7 +7,7 @@ const projects = [
     Built with a React frontend and a Node/Express API, featuring authenticated users,
     dynamic search and filtering, and persistent flight data stored in PostgreSQL.
     `,
-    image: flightTrackerImg,
+    image: "/assets/Flight_tracker_desktop.png", // <-- use this path
     techStack: [
       "React",
       "TypeScript",
@@ -35,7 +31,7 @@ const projects = [
     while providing AI-assisted budgeting insights. Built with Flask and Python,
     featuring dynamic data visualizations, progress tracking, and theming support.
     `,
-    image: aiBudgetAdvisorImg,
+    image: "/assets/ai_budget_advisor_desktop.png",
     techStack: [
       "Python",
       "Flask",
@@ -47,7 +43,7 @@ const projects = [
       "Jinja2",
       "Pytest"
     ],
-    liveUrl: null, // add live deployment URL when available
+    liveUrl: null,
     repoUrl: "https://github.com/jonathandew-dev/budget_ai_advisor",
   },
   {
@@ -58,7 +54,7 @@ const projects = [
     daily spending. Built with Flask and SQLite, featuring categorized expenses,
     dashboard summaries, and interactive charts.
     `,
-    image: expenseTrackerImg,
+    image: "/assets/expense_tracker_desktop.png",
     techStack: [
       "HTML",
       "CSS",
@@ -68,7 +64,7 @@ const projects = [
       "SQLite",
       "Plotly.js"
     ],
-    liveUrl: null, // add live deployment URL when available
+    liveUrl: null,
     repoUrl: "https://github.com/jonathandew-dev/expense-tracker",
   },
 ];
