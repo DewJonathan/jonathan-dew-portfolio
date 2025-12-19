@@ -54,7 +54,7 @@ const projects = [
     daily spending. Built with Flask and SQLite, featuring categorized expenses,
     dashboard summaries, and interactive charts.
     `,
-    image: "/assets/expense_tracker_desktop.png",
+    image: "/assets/Expense_tracker_desktop.png",
     techStack: [
       "HTML",
       "CSS",
