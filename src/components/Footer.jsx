@@ -42,11 +42,11 @@ export default function Footer() {
             </div>
 
             {/* Tooltip */}
-            <div className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-              <div className="bg-gray-900 text-gray-200 text-xs px-3 py-1.5 rounded-md shadow-lg whitespace-nowrap">
-                {social.name}
-              </div>
-            </div>
+           <div className="pointer-events-none absolute left-1/2 -translate-x-1/2 bottom-full mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+  <div className="bg-gray-900 text-gray-200 text-xs px-3 py-1.5 rounded-md shadow-lg whitespace-nowrap">
+    {social.name}
+  </div>
+</div>
           </motion.a>
         ))}
       </div>

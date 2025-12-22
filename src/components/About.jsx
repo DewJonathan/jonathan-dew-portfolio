@@ -17,6 +17,11 @@ export default function About() {
       { name: "JavaScript", icon: "/icons/javascript.svg", color: "#F7DF1E" },
       { name: "Docker", icon: "/icons/docker.svg", color: "#2496ED" },
       { name: "Java", icon: "/icons/java.svg", color: "#007396" },
+      { name: "TypeScript", icon: "/icons/typescript.svg", color: "#3178C6" },
+      { name: "Git", icon: "/icons/git.svg", color: "#F05032" },
+      { name: "GitHub", icon: "/icons/github.svg", color: "#181717" },
+      { name: "JWT", icon: "/icons/jsonwebtokens.svg", color: "#000000" },
+      { name: "Prisma", icon: "/icons/prisma.svg", color: "#4DB6AC" },
     ],
     []
   );
@@ -76,26 +81,24 @@ export default function About() {
             transition: { duration: 0.3, ease: "easeOut" },
           }}
         >
-          <h2 className="text-4xl font-bold mb-6 text-white">
-  About
-</h2>
+          <h2 className="text-4xl font-bold mb-6 text-white">About</h2>
 
           <p className="text-lg leading-relaxed mb-4 text-gray-300">
-            I’m a full-stack developer who builds and ships web applications
-            with a strong focus on reliability, clarity, and long-term
-            maintainability.
+            I’m a full-stack developer with a computer science background who
+            builds production-ready web applications with ownership across the
+            entire system.
           </p>
 
           <p className="text-lg leading-relaxed mb-4 text-gray-300">
-            I work end-to-end across the stack — from React-based user
-            interfaces to backend APIs, data modeling, and authentication — with
-            an emphasis on predictable behavior and clean system boundaries.
+            I work end-to-end—from React-based user interfaces to Node/Express
+            APIs, PostgreSQL data models, and authentication—prioritizing
+            clarity, reliability, and maintainability over one-off demos.
           </p>
 
           <p className="text-lg leading-relaxed text-gray-300">
-            I optimize for real-world usage, not demos: readable code, explicit
-            data flow, and systems designed to handle edge cases, growth, and
-            change over time.
+            I’m currently building a full-stack flight tracking application with
+            authenticated users, persisted profiles, and real-world data flow,
+            designed to handle edge cases and long-term growth.
           </p>
         </motion.div>
 

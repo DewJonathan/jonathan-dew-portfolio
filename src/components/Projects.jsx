@@ -34,7 +34,7 @@ export default function Projects() {
       </motion.p>
 
       {/* Project Cards */}
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-12 max-w-full overflow-hidden">
         {projects.map((project, index) => {
           const direction = index % 2 === 0 ? "right" : "left"; // alternate sides
           return (
